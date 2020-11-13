@@ -1,0 +1,290 @@
+html {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: auto;
+}
+
+/*導覽列*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    /*border-bottom: solid 0.5px #cccccc;*/
+    box-shadow: 0 2px 5px #cccccc;
+}
+
+.header_img{
+    display: block;
+    width: 170px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.nav {
+    margin-top: 12px;
+    margin-right: 60px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    font-family:  'Noto Sans TC', sans-serif;
+    color: #6D9EA5;
+    margin: auto 0px auto 14px;
+}
+
+.nav-link:hover {
+    color: #DEC394;
+}
+
+.btn-home {
+    display: block;
+    width: 14px;
+    height: 14px;
+}
+
+.btn-home:hover {
+    display: block;
+    content: url(../../../img/home_hover.svg);
+}
+
+.btn-fb {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.btn-fb:hover {
+    display: block;
+    content: url(../../../img/facebook_hover.svg);
+}
+
+.btn-ig {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.btn-ig:hover {
+    display: block;
+    content: url(../../../img/instagram_hover.svg);
+}
+
+/*店家介紹*/
+
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*width: 915px;
+    height: 1735px;*/
+    margin:0px 207px 0px 207px;
+    
+}
+
+.shops{
+    margin:0px;
+    font-size: 12px;
+    height: 1508px;
+}
+
+.shop_title {
+    margin-top: 38px;
+    margin-left: 20px;
+}
+
+.shop_title h1 {
+    margin: 0;
+    font-family:  'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #696868;
+}
+
+.shop_list{
+    padding: 0px;
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    /*margin:0 -17.5px 0 -17.5px;*/
+}
+
+.shop_list li{
+
+    width: 230px;
+    height: 310px;
+    padding-top: 16px;
+    margin: 17.5px;
+    text-align: center;
+    border-width: 1.5px;
+    border-color: #738176;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.shop_list_item{
+    width: 181px;
+    height: 152px;
+    margin-bottom: 13px;
+    transition: 0.5s;
+    opacity: 0.8;
+    
+    
+}
+
+.shop_list_item:hover{
+    opacity: 0.48;
+    border-radius : 12%;
+    transform : scale(1.05);
+
+    
+}
+
+.money{
+    margin: 2.5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  'Noto Sans TC', sans-serif;
+    color: #696868;
+}
+
+.time{
+    margin: 10px 0px 2.5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  'Noto Sans TC', sans-serif;
+    color: #696868;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+    transition: 0.5s;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #696868;
+}
+
+
+.name:hover {
+    color: #6D9EA5;
+}
+
+.space {
+    display: block;
+    height: 5px;
+}
+
+.star {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #696868;
+}
+
+
+.icon {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+}
+
+.icon_list {
+    width: 12px;
+    height: 12px;   
+}
+
+a {
+    color: #696868;
+    text-decoration: none;
+}
+
+.sidebar {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 12px;
+    margin-top: 165px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.rank {
+    display: flex;
+    align-items: center;
+}
+
+.rank h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+    color: #696868;
+    font-weight: 400;
+}
+
+label {
+    width: 60px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.review {
+    display: flex;
+    font-weight: 300;
+}
+.price_l {
+    display: flex;
+    font-weight: 300;
+}
+
+.price_h {
+    display: flex;
+    font-weight: 300;
+}
+
+
+
+/*footer*/
+
+.footer {
+    margin-top: 76px;
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+    background-color: #6D9EA5;
+    color: white;
+    border-top: solid 1px #cccccc;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    padding-top: 20px;
+}

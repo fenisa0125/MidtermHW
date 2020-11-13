@@ -1,0 +1,251 @@
+html {
+    box-sizing: border-box;
+    /*width: 1440px;*/
+    /*height: 1650px;*/
+    margin: auto;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: auto;
+}
+
+/*導覽列*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    /*border-bottom: solid 0.5px #cccccc;*/
+    box-shadow: 0 2px 5px #cccccc;
+}
+
+.header_img{
+    display: block;
+    width: 170px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.nav {
+    margin-top: 12px;
+    margin-right: 60px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    font-family:  'Noto Sans TC', sans-serif;
+    color: #6D9EA5;
+    margin: auto 0px auto 14px;
+}
+
+.nav-link:hover {
+    color: #DEC394;
+}
+
+.btn-home {
+    display: block;
+    width: 14px;
+    height: 14px;
+}
+
+.btn-home:hover {
+    display: block;
+    content: url(../img/home_hover.svg);
+}
+
+.btn-fb {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.btn-fb:hover {
+    display: block;
+    content: url(../img/facebook_hover.svg);
+}
+
+.btn-ig {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.btn-ig:hover {
+    display: block;
+    content: url(../img/instagram_hover.svg);
+}
+
+/*首頁大圖*/
+
+/* .main-image {
+} */
+
+.main-image img {
+    margin-top: 76px;
+    max-width: 100%;
+}
+
+/*地圖*/
+
+/* .map{
+
+} */
+
+.map-title {
+    margin: 38px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    color: #696868;
+}
+
+.floordiv {
+    display: flex;
+    justify-content: center;
+}
+
+.floordiv h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 5px;
+    color: #6D9EA5;
+}
+
+.btn1 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px #cccccc;
+    position: absolute;
+    top: 1265px;
+    left: 1365px;
+    z-index: 4;
+}
+
+.btn1 a {
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background-color:  #f3f3f3;
+    transition: 0.4s;
+    transform : scale(0.92);
+}
+
+.btn2 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px #cccccc;
+    position: absolute;
+    top: 1315px;
+    left: 1365px;
+    z-index: 4;
+}
+
+.btn2 a {
+    text-decoration: none;
+}
+
+.btn2:hover {
+    background-color:  #f3f3f3;
+    transition: 0.4s;
+    transform : scale(0.92);
+}
+
+.map-image1 {
+    display: block;
+    width: 1320px;
+    margin: 38px auto 0px auto;
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.map-image2 {
+    display: block;
+    width: 1320px;
+    margin: 38px auto 0px auto;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.map-image2:target {
+    display: block;
+    width: 1320px;
+    margin: 38px auto 0px auto;
+    position: absolute;
+    z-index: 2;
+    transition: 0.4s ease-in;
+    opacity: 1;
+}
+
+
+
+/*aside*/
+
+.info {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 720px;
+}
+
+.info-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.info p {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #696868;
+    margin: 0px 27px 0px 9px;
+}
+
+/*footer*/
+
+.footer {
+    margin-top: 750px;
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+    background-color: #6D9EA5;
+    color: white;
+    border-top: solid 1px #cccccc;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    padding-top: 20px;
+}

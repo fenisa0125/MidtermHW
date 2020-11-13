@@ -1,0 +1,160 @@
+html {
+    box-sizing: border-box;
+    /*width: 1440px;*/
+    height: 1024px;
+    margin: auto;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: auto;
+}
+
+/*導覽列*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    /*border-bottom: solid 0.5px #cccccc;*/
+    box-shadow: 0 2px 5px #cccccc;
+}
+
+.header_img{
+    display: block;
+    width: 170px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.nav {
+    margin-top: 12px;
+    margin-right: 60px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    font-family:  'Noto Sans TC', sans-serif;
+    color: #6D9EA5;
+    margin: auto 0px auto 14px;
+}
+
+.nav-link:hover {
+    color: #DEC394;
+}
+
+.btn-home {
+    display: block;
+    width: 14px;
+    height: 14px;
+}
+
+.btn-home:hover {
+    display: block;
+    content: url(../../../img/home_hover.svg);
+}
+
+.btn-fb {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.btn-fb:hover {
+    display: block;
+    content: url(../../../img/facebook_hover.svg);
+}
+
+.btn-ig {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.btn-ig:hover {
+    display: block;
+    content: url(../../../img/instagram_hover.svg);
+}
+
+/*介紹圖片*/
+
+.about-title {
+    margin-top: 38px;
+    margin-left: 90px;
+}
+
+.about-title h1 {
+    margin: 0;
+    font-family:  'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #696868;
+}
+
+.content-area {
+    display: flex;
+    margin-top: 38px;
+    margin-bottom: 188px;
+}
+
+
+.about-image {
+    width: 70%;
+    margin-left: 90px;
+}
+
+.about-image img {
+    height: 550px;
+}
+
+/*資訊*/
+.about-p {
+    width: 30%;
+    margin-left: 90px;
+    margin-top: 220px;
+}
+
+.about-p p {
+    margin: 0;
+    font-family:  'Noto Sans TC', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: #696868;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+/*footer*/
+
+.footer {
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+    background-color: #6D9EA5;
+    color: white;
+    border-top: solid 1px #cccccc;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    padding-top: 20px;
+}
